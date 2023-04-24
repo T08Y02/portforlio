@@ -7,95 +7,97 @@
         <!--jQuery-->
         <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
         <!--CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous" />
         <!--Javascript-->
         <script src="header.js"></script>
     </head>
     <body>
-        <div id="header"></div>
-        <script>
-            $(function(){
-                $('#header').load('./header.html'); // #headerにheader.htmlを読み込む
-            });
-        </script>
-        <h1>プロフィール</h1>
-        <h2>名前</h2>
-        <p>髙木柚李 (Takaki Yuri)</p>
-        <h2>所属</h2>
-        <p>東京大学計数工学科システム情報工学コース4年</p>
-        <p>レバテックカレッジメンター</p>
-        <h2>スキル</h2>
-        <table class="table table-striped ">
-            <tr>
-                <th>言語</th>
-                <th>期間</th>
-                <th>詳細</th>
-            </tr>
-            <tr>
-                <td>Python</td>
-                <td>2020/05~</td>
-                <td>学習機能付きオセロ(ローカル版)</td>
-            </tr>
-            <tr>
-                <td>Django</td>
-                <td>2023/02~</td>
-                <td>ゲストハウスアプリ</td>
-            </tr>
-            <tr>
-                <td>HTML, CSS</td>
-                <td>2023/08~</td>
-                <td>このポートフォリオを作成する程度のスキル</td>
-            </tr>
-            <tr>
-                <td>javascript / Ajax</td>
-                <td>2023/03~</td>
-                <td>対戦機能付きオセロ(webアプリ版)</td>
-            </tr>
-            <tr>
-                <td>laravel / php</td>
-                <td>2022/09~</td>
-                <td>簡単な掲示板アプリの作成</td>
-            </tr>
-            <tr>
-                <td>Github</td>
-                <td>2022/08~</td>
-                <td>ブランチ管理、コンフリクトの解消</td>
-            </tr>
-            <tr>
-                <td>MySQL(mariaDB)</td>
-                <td>2022/09~</td>
-                <td>メンター業務</td>
-            </tr>
-            <tr>
-                <td>Docker</td>
-                <td>2023/02~</td>
-                <td>仮想環境上での開発</td>
-            </tr>
-            <tr>
-                <td>MATLAB</td>
-                <td>2021/09~</td>
-                <td>実験等の数値シミュレーション</td>
-            </tr>
-            <tr>
-                <td>C, C++</td>
-                <td>2022/04~</td>
-                <td>大学の講義で使用</td>
-            </tr>
-            <tr>
-                <td>アルゴリズム</td>
-                <td>2021/09~</td>
-                <td>線形計画法、ニュートン法、動的計画法、二分探索、計算量の理解、最短路探索</td>
-            </tr>
-            <tr>
-                <td>数学</td>
-                <td>2021/09~</td>
-                <td>講義レベルの微分積分学、線形代数学、統計学、解析学、最適化理論</td>
-            </tr>
-            <tr>
-                <td>情報学</td>
-                <td>2021/09~</td>
-                <td>信号処理、特異値分解、コンピュータアーキテクチャ、情報理論、ネットワークについての基礎知識</td>
-            </tr>
-        </table>
+        <div class = "p-5">
+            <div id="header"></div>
+            <script>
+                $(function(){
+                    $('#header').load('./header.html'); // #headerにheader.htmlを読み込む
+                });
+            </script>
+            <h1>プロフィール</h1>
+            <h2>名前</h2>
+            <p>髙木柚李 (Takaki Yuri)</p>
+            <h2>所属</h2>
+            <p>東京大学計数工学科システム情報工学コース4年</p>
+            <p>PGスクール「レバテックカレッジ」メンター</p>
+            <h2>スキル</h2>
+            <table class="table table-striped w-75">
+                <tr>
+                    <th>言語</th>
+                    <th>期間</th>
+                    <th>詳細</th>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>2020/05~</td>
+                    <td>学習機能付きオセロ(ローカル版)</td>
+                </tr>
+                <tr>
+                    <td>Django</td>
+                    <td>2023/02~</td>
+                    <td>ゲストハウスアプリ</td>
+                </tr>
+                <tr>
+                    <td>HTML, CSS</td>
+                    <td>2023/08~</td>
+                    <td>このポートフォリオを作成する程度のスキル</td>
+                </tr>
+                <tr>
+                    <td>javascript / Ajax</td>
+                    <td>2023/03~</td>
+                    <td>対戦機能付きオセロ(webアプリ版)</td>
+                </tr>
+                <tr>
+                    <td>laravel / php</td>
+                    <td>2022/09~</td>
+                    <td>簡単な掲示板アプリの作成</td>
+                </tr>
+                <tr>
+                    <td>Github</td>
+                    <td>2022/08~</td>
+                    <td>ブランチ管理、コンフリクトの解消</td>
+                </tr>
+                <tr>
+                    <td>MySQL(mariaDB)</td>
+                    <td>2022/09~</td>
+                    <td>メンター業務</td>
+                </tr>
+                <tr>
+                    <td>Docker</td>
+                    <td>2023/02~</td>
+                    <td>仮想環境上での開発</td>
+                </tr>
+                <tr>
+                    <td>MATLAB</td>
+                    <td>2021/09~</td>
+                    <td>実験等の数値シミュレーション</td>
+                </tr>
+                <tr>
+                    <td>C, C++</td>
+                    <td>2022/04~</td>
+                    <td>大学の講義で使用</td>
+                </tr>
+                <tr>
+                    <td>アルゴリズム</td>
+                    <td>2021/09~</td>
+                    <td>線形計画法、ニュートン法、動的計画法、二分探索、計算量の理解、最短路探索</td>
+                </tr>
+                <tr>
+                    <td>数学</td>
+                    <td>2021/09~</td>
+                    <td>講義レベルの微分積分学、線形代数学、統計学、解析学、最適化理論</td>
+                </tr>
+                <tr>
+                    <td>情報学</td>
+                    <td>2021/09~</td>
+                    <td>信号処理、特異値分解、コンピュータアーキテクチャ、情報理論、ネットワークについての基礎知識</td>
+                </tr>
+            </table>
+        </div>
     </body>
 </html>
