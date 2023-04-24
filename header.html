@@ -10,6 +10,12 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
     </head>
     <body>
+        <div id="header"></div>
+        <script>
+            $(function(){
+                $('#header').load('./header.html'); // #headerにheader.htmlを読み込む
+            });
+        </script>
         <header>
             <nav class="navbar navbar-light bg-light d-flex">
                 <div class="container-fluid">
