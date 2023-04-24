@@ -4,13 +4,31 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>works</title>
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+        <!--jQuery-->
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <!--CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
         </head>
     <body>
+        <div id="header"></div>
+        <script>
+            $(function(){
+                $('#header').load('./header.html'); // #headerにheader.htmlを読み込む
+            });
+        </script>
         <h1>制作した成果物一覧</h1>
-        <h2>学習機能付きオセロ(ローカル版)</h2>
-        <a href="https://github.com/T08Y02/oserou_Reversi">github</p>
+        <h3>学習機能付きオセロ(ローカル版)</h2>
+        <a href="https://github.com/T08Y02/oserou_Reversi">github</a>
+        <div class = "container">
+            <div class="col-lg-4">
+                <p>・対戦の様子</p>
+                <video controls width="300" height="200" src="movie/oserou_vscpu.mp4"></video>
+            </div>
+            <div class="col-lg-4">
+                <p>・学習の様子</p>
+                <video controls width="300" height="200" src="movie/oserou_forlearn.mp4"></video>
+            </div>
+        </div>
         <h2>対戦機能付きオセロ(webアプリ版)</h2>
         <a href="https://github.com/T08Y02/oserou_django">github(製作中)</a>
         <h2>ゲストハウスアプリ</h2>
