@@ -3,7 +3,7 @@ function header(){
         url: "header.html",
         cache: false,
         success: function(html){
-            document.write(html);
+            $('#header').load('./header.html');
         }
     });
 }
